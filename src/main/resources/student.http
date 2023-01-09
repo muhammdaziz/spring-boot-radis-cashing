@@ -1,0 +1,32 @@
+POST http://localhost:9090/api/student/save
+Content-Type: application/json
+
+{
+  "firstname": "bolta",
+  "lastname": "a",
+  "email": "bolta-110@gmail.com"
+}
+
+###
+
+PUT http://localhost:9091/api/student/edit
+Content-Type: application/json
+
+{
+  "id": 4,
+  "firstname": "jvhj",
+  "lastname": "a",
+  "email": "boltahhuubjbv@gmail.com"
+}
+
+
+
+###
+
+GET http://localhost:9091/api/student/4
+
+
+###
+
+GET http://localhost:9091/api/student/list
+
